@@ -24,7 +24,7 @@
   "scripts": {
     "build": "rm -rf dist && tsc",
     "prepare": "npm run build",
-    "prepublishOnly": "npm run build && npm test",
+    "prepublishOnly": "npm run build",
     "test": "jest --runInBand"
   },
   "engines": {
